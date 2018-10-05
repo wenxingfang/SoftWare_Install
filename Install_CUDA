@@ -1,0 +1,9 @@
+# Install CUDA
+-------------------------------------------------------------------
+Write time 2018-10-05
+Environment: Win10 family
+GUP: NVIDIA GTX 960M
+Step1: Download and Install Visual Studio 2015 (link http://blog.postcha.com/read/66), do not install latest VS2017 which can not degrade into VS2015 (details https://devtalk.nvidia.com/default/topic/1027299/cuda-setup-and-installation/cuda-9-failed-to-support-the-latest-visual-studio-2017-version-15-5/).
+Step2: Download and Install CUDA9 (link to download CUDA https://developer.nvidia.com/), Some details for install CUDA (see https://blog.csdn.net/u013165921/article/details/77891913)
+Step3: Test. Open VS2015 and Create CUDA project (NVIDIA->CUDA 9.0->CUDA 9.0 runtime). Then try to run with debug, if it gives some "无法查找或打开 PDB 文件", then see (https://www.cnblogs.com/wxl845235800/p/7206767.html). After that CUDA should works.
+-------------------------------------------------------------------
