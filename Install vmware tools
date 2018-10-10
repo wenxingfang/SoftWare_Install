@@ -1,0 +1,6 @@
+------------------ 2018-10-10-------------------------------------------------------------------------
+1,Download and Install vmware
+2,Download and Install operate system (the .iso file), here I use Ubuntu 16.04.5 64 bit
+3,进入操作系统，点击虚拟机->设置->添加->CD/DVD驱动器。选择使用ISO映像文件（就是操作系统的ISO文件）
+4，点击虚拟机->安装VMware tool。这时可以看到桌面的CD/DVD载入了VMware tool。将这文件复制到 ~ (具体位置应该不重要)，
+然后解压。进入解压后的文件夹，运行 sudo ./vmware-install.pl, 一路回车，完成，最后重启操作系统即可。
