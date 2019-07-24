@@ -27,3 +27,5 @@ config = tf.ConfigProto(intra_op_parallelism_threads=args.jobs, \
 session = tf.Session(config=config)
 K.set_session(session)
 ```
+
+## ps:previous versions of Anaconda https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=N&O=D
