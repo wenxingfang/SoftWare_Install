@@ -9,15 +9,15 @@
 ## conda deactivate
 ## conda install -c anaconda keras-gpu (or keras)
 ## If want to run tensorflow or keras in lxslc6 or lxslc7 locally, need set:
-···js
+```js
 import tensorflow as tf
 session_conf = tf.ConfigProto(
       intra_op_parallelism_threads=1,
       inter_op_parallelism_threads=1)
 sess = tf.Session(config=session_conf)
-```
-or
-```js
+
+###### or ################3
+
 from keras import backend as K
 import tensorflow as tf
 config = tf.ConfigProto(intra_op_parallelism_threads=args.jobs, \ 
