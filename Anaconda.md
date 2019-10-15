@@ -1,6 +1,6 @@
 ## Login lxslc7
 ## Download Miniconda (light than Anaconda) : https://docs.conda.io/en/latest/miniconda.html?source=post_page--------------------------- 
-## Install conda : bash Miniconda3-latest-Linux-x86_64.sh
+## Install conda : bash Miniconda3-latest-Linux-x86_64.sh (need reset  PYTHONHOME='' and PYTHONPATH='')
 ## Update conda ? (maybe don't do it, it causes error)
 ## Set the PATH 
 ## conda init
