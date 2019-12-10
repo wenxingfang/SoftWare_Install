@@ -14,3 +14,11 @@
 ### Test: import tensorflow as tf
 ### To solve glibc raised problem (no problem if you are in lxslc7): https://zhuanlan.zhihu.com/p/33059558, dowload the glibc here : http://ftp.gnu.org/gnu/glibc/glibc-2.17.tar.gz
 ## Finall install keras: pip install keras
+
+# Install PyTorch
+### https://pytorch.org/get-started/previous-versions/
+### conda create -n pyTorch_v1p2_py37 python=3.7
+### conda activate pyTorch_v1p2_py37
+### conda install -c conda-forge numpy
+### conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+### done
