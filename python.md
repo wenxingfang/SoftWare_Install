@@ -23,7 +23,7 @@
 ### conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
 ### done
 
-#Install faiss
+# Install faiss
 ### https://github.com/facebookresearch/faiss/wiki/Getting-started
 ### conda create -n Faiss_py3p7 python=3.7
 ### conda activate Faiss_py3p7
