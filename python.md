@@ -28,3 +28,13 @@
 ### conda create -n Faiss_py3p7 python=3.7
 ### conda activate Faiss_py3p7
 ### conda install faiss-gpu cudatoolkit=10.0 -c pytorch
+
+# Install MMdnn
+### https://github.com/microsoft/MMdnn
+### conda create -n MMdnnV1_py37 python=3.7
+### conda activate MMdnnV1_py37
+### pip install mmdnn
+### conda install tensorflow-gpu==1.14 pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+
+
+
